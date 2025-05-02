@@ -1,0 +1,30 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.devansh-container {
+  display: inline-block; /* Keeps the "Devansh" part separate */
+}
+
+.devansh-link {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease;
+  display: inline-block; /* Ensure it's treated as an inline-block for scaling */
+  transform-origin: center; /* Scale from the center */
+}
+
+.devansh-link:hover {
+  transform: scale(1.8); /* Larger scale for better visibility */
+  z-index: 2;
+}
